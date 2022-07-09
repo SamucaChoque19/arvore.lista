@@ -1,0 +1,40 @@
+Crie uma árvore para cada lista abaixo, adicione um valor nela e remova outro, mas, em pelo menos uma das árvores, a remoção deve ser de um nó com dois filhos.
+Lista1 = 45,20,30,60,81,97,100,7,8,4
+
+//Foi adicionado o valor= 48;
+             _60_
+           48    81
+         45        97
+       30
+      20
+     8
+    7
+   4
+
+//Foi removido o nó de valor =20, e seus filhos, 8, 7.
+
+             _60_
+           48    81
+         45        97
+       30           100
+      4
+
+
+
+Lista2 = 15,6,18,3,7,16,20,4
+
+//Foi adicionado o valor =1;
+
+             _7_ 
+            6   15
+           4      16
+          3        18 
+         1           20
+
+//Foi removido o nó de valor= 15.
+
+             _7_ 
+            6   16
+           4     18
+          3        20 
+         1           
